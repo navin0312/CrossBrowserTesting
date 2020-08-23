@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="internetexplorer"/>
+  <test name="TestInternetExplorer(failed)" parallel="tests">
+    <parameter name="browser" value="internetexplorer"/>
+    <classes>
+      <class name="scripts.TESTActitimeLogin">
+        <methods>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openBrowser"/>
+          <include name="openApp"/>
+          <include name="openApp"/>
+          <include name="openApp"/>
+          <include name="login"/>
+        </methods>
+      </class> <!-- scripts.TESTActitimeLogin -->
+    </classes>
+  </test> <!-- TestInternetExplorer(failed) -->
+</suite> <!-- Failed suite [Suite] -->
